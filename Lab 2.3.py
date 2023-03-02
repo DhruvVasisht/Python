@@ -1,0 +1,8 @@
+a=(input("Enter Your Name: "))
+b=int(input("Enter Your Age: "))
+c=input("Enter Your Gender: ")
+d=int(input("Enter Your Height: "))
+print("Your Name is:",a)
+print("Your Age is:",b)
+print("Your Gender is:",c)
+print("Your Height is:",d)
