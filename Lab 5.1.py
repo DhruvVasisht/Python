@@ -6,7 +6,7 @@ for i in range(0,n):
 
 celcius = []
 for f in fahrenheit:
-    c = (f - 32) * 5 / 9
+    c = format((f - 32) * 5 / 9,'20.2f')
     celcius.append(c)
-
+ 
 print(celcius)
