@@ -12,4 +12,4 @@ fruits=["Apple","Mango","Guava"]
 '''fruits[2]="Grapes"
 print(fruits)'''
 del fruits[0]
-print(fruits
+print(fruits)
