@@ -1,5 +1,5 @@
-'''a=list(range(5,10,2))
-print(a)'''
+a=list(range(5,10,1))
+print(a)
 '''for i in range(1,11,1):
     print("Hello World \n")
 

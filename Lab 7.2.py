@@ -14,6 +14,7 @@ def min(list,n):
         if(list[0]>list[i]):
             min=list[i]
 
+
     print("Minimum element in the list is ",min) 
         
 
