@@ -76,7 +76,7 @@ num=int(input("Enter Number"))
 print(reverse(num))'''
 
 
-def even(n):
+'''def even(n):
     a=0
     for i in range(0,n,2):
         a=a+i
@@ -85,4 +85,15 @@ def even(n):
     return(a)
 
 n=int(input("Enter"))
-print(even(n))
+print(even(n))'''
+
+def table(n):
+    for i in range(1,n):
+        for j in range(1,11):
+            print(j*i)
+        print("\n")
+
+     
+           
+n=int(input("Enter The Number Of tables"))
+print(table(n))
