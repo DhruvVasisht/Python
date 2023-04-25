@@ -20,13 +20,13 @@ Operation=int(input("Enter The Choice"))
 x=eval(input("Enter The Number 1 "))
 y=eval(input("Enter The Number 2 "))
 
-if Operation== "1":
+if Operation== 1:
     print(add(x,y))
     
-elif Operation== "2":
+elif Operation== d2:
     print(sub(x,y))
 
-elif Operation== "3":
+elif Operation== 3:
     print(div(x,y))
 
 else:
