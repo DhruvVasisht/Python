@@ -87,13 +87,29 @@ print(reverse(num))'''
 n=int(input("Enter"))
 print(even(n))'''
 
-def table(n):
+'''def table(n):
     for i in range(1,n):
         for j in range(1,11):
             print(j*i)
         print("\n")
-
-     
-           
+          
 n=int(input("Enter The Number Of tables"))
-print(table(n))
+print(table(n))'''
+
+'''def factorial(n):
+   if n == 1:
+       return n
+   else:
+       return n*factorial(n-1)
+
+n = int(input("Enter A Number"))
+print(factorial(n))'''
+
+'''def traverse(c):
+    length=len(c)
+    for i in range(0,length,2):
+        print(c[i])
+    
+c=(input("Enter The String"))
+print(traverse(c))'''
+
