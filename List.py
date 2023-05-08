@@ -14,9 +14,12 @@ print(fruits)
 del fruits[0]
 print(fruits)'''
 
-a=[1,2,8,9]
+'''a=[1,2,8,9]
 b=[1,2,7]
 if a>b:
     print("true")
 else:
-    print("false")
+    print("false")'''
+
+s="Dhruv"
+print(list(s))
