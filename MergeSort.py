@@ -1,5 +1,6 @@
 def mergeSort(array):
     if len(array) > 1:
+
         r = len(array)//2
         L = array[:r]
         M = array[r:]
@@ -35,10 +36,9 @@ def printList(array):
 
 
 
-if __name__ == '__main__':
-    array = [6, 5, 12, 10, 9, 1]
+array = [6, 5, 12, 10, 9, 1]
 
-    mergeSort(array)
+mergeSort(array)
 
-    print("Sorted array is: ")
-    printList(array)
+print("Sorted array is: ")
+printList(array)
